@@ -8,7 +8,7 @@ export default function Footer() {
                 <div className="flex flex-col md:flex-row md:justify-between gap-8">
                     {/* Logo and Title */}
                     <div className="w-full md:w-1/2 mb-2">
-                    <Link href="/" className="flex items-center gap-4">
+                    <Link href="#" className="flex items-center gap-4">
                         <Image 
                             src="/images/logo-unimatics.svg" 
                             alt="Logo" 
@@ -82,7 +82,7 @@ export default function Footer() {
                 {/* Bottom Bar */}
                 <div className="flex flex-col sm:flex-row justify-between items-center text-center text-sm text-gray-500 dark:text-gray-400 gap-4">
                     <span>
-                        © 2025 <a href="/" className="hover:underline">UniMatics™</a>. All Rights Reserved.
+                        © 2025 <a href="#" className="hover:underline">UniMatics™</a>. All Rights Reserved.
                     </span>
                     <span>
                         Website by <a href="https://lawu-digital.vercel.app" target="_blank" rel="noopener noreferrer" className="font-bold">UniMatics Web Division</a>

@@ -1,9 +1,9 @@
 'use client'
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import Footer from "./components/footer";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, Variants } from "framer-motion";
 import Link from "next/link";
 
 export default function Home() {
@@ -19,9 +19,13 @@ export default function Home() {
     },
   };
   
-  const item = {
+  const item: Variants = {
     hidden: { opacity: 0, y: 40 },
-    show: { opacity: 1, y: 0, transition: { duration: 0.4, ease: "easeOut" as any } },
+    show: { 
+      opacity: 1, 
+      y: 0, 
+      transition: { duration: 0.4, ease: "easeOut" } 
+    },
   };
 
   return (
