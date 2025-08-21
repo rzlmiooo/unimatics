@@ -40,7 +40,7 @@ export default function Footer() {
                                     </Link>
                                 </li>
                                 <li className="mb-2">
-                                    <Link href="/profil/struktur" className="hover:underline">
+                                    <Link href="/profil/" className="hover:underline">
                                         Learning Path
                                     </Link>
                                 </li>

@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Footer from "./components/footer";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,22 +32,22 @@ export default function Home() {
        <nav className="fixed w-full flex justify-between items-center px-8 xl:px-16 py-4 bg-[#16166B]/80 backdrop-blur-md shadow-md shadow-gray-900 z-20">
         <ul className="flex items-center gap-8 font-medium text-[#f8f8f8]">
           {/* logo */}
-          <a href="/" className="flex items-center gap-4">
+          <Link href="/" className="flex items-center gap-4">
             <Image src="/images/logo-unimatics.svg" alt="Logo" width={100} height={100} priority className="w-8 h-auto"/>
             <p className="font-bold text-2xl pr-8">UniMatics</p>
-          </a>
+          </Link>
           {/* internal links */}
-          <li><a href="/" className="text-base hidden sm:block">Home</a></li>
-          <li><a href="/" className="text-base hidden sm:block">About</a></li>
-          <li><a href="/" className="text-base hidden sm:block">Learning Path</a></li>
+          <li><a href="#" className="text-base hidden sm:block">Home</a></li>
+          <li><a href="#" className="text-base hidden sm:block">About</a></li>
+          <li><a href="#" className="text-base hidden sm:block">Learning Path</a></li>
         </ul>
         {/* extermal links */}
         <ul className=" hidden sm:flex items-center gap-5 font-bold text-[#f8f8f8]">
-          <li><a href="/" className=""><Image src="/images/tiktok.svg" alt="linkedin" width={100} height={100} className="invert w-6 h-auto"/></a></li>
-          <li><a href="/" className=""><Image src="/images/instagram.svg" alt="linkedin" width={100} height={100} className="invert w-6 h-auto"/></a></li>
-          <li><a href="/" className=""><Image src="/images/github.svg" alt="linkedin" width={100} height={100} className="invert w-6 h-auto"/></a></li>
-          <li><a href="/" className=""><Image src="/images/linkedin.svg" alt="linkedin" width={100} height={100} className="invert w-6 h-auto"/></a></li>
-          <li><a href="/" className="rounded-2xl bg-[#f8f8f8] text-gray-900 px-4 py-2">Join UniMatics</a></li>
+          <li><a href="#" className=""><Image src="/images/tiktok.svg" alt="linkedin" width={100} height={100} className="invert w-6 h-auto"/></a></li>
+          <li><a href="#" className=""><Image src="/images/instagram.svg" alt="linkedin" width={100} height={100} className="invert w-6 h-auto"/></a></li>
+          <li><a href="#" className=""><Image src="/images/github.svg" alt="linkedin" width={100} height={100} className="invert w-6 h-auto"/></a></li>
+          <li><a href="#" className=""><Image src="/images/linkedin.svg" alt="linkedin" width={100} height={100} className="invert w-6 h-auto"/></a></li>
+          <li><a href="#" className="rounded-2xl bg-[#f8f8f8] text-gray-900 px-4 py-2">Join UniMatics</a></li>
         </ul>
         {!isOpen && (
           <button 
@@ -87,23 +88,23 @@ export default function Home() {
               </button>
               <ul className="flex flex-col items-start gap-6 font-medium text-[#f8f8f8] border-b pb-6 pt-12">
                 {/* logo */}
-                <a href="/" className="flex items-center gap-4 border-b pb-6">
+                <Link href="/" className="flex items-center gap-4 border-b pb-6">
                   <Image src="/images/logo-unimatics.svg" alt="Logo" width={100} height={100} priority className="w-8 h-auto"/>
                   <p className="font-bold text-2xl pr-8">UniMatics</p>
-                </a>
+                </Link>
                 {/* internal as */}
-                <li><a href="/" className="text-base">Home</a></li>
-                <li><a href="/" className="text-base">About</a></li>
-                <li><a href="/" className="text-base">Learning Path</a></li>
+                <li><a href="#" className="text-base">Home</a></li>
+                <li><a href="#" className="text-base">About</a></li>
+                <li><a href="#" className="text-base">Learning Path</a></li>
               </ul>
               {/* extermal as */}
               <p className="font-bold pt-6">Follow Us:</p>
               <ul className="grid grid-cols-2 grid-rows-3 items-center justify-center gap-6 font-bold text-[#f8f8f8] pt-6">
-                <li className="row-span-1"><a href="/" className=""><Image src="/images/tiktok.svg" alt="linkedin" width={100} height={100} className="invert w-6 h-auto"/></a></li>
-                <li className="row-span-1"><a href="/" className=""><Image src="/images/instagram.svg" alt="linkedin" width={100} height={100} className="invert w-6 h-auto"/></a></li>
-                <li className="row-span-1"><a href="/" className=""><Image src="/images/github.svg" alt="linkedin" width={100} height={100} className="invert w-6 h-auto"/></a></li>
-                <li className="row-span-1"><a href="/" className=""><Image src="/images/linkedin.svg" alt="linkedin" width={100} height={100} className="invert w-6 h-auto"/></a></li>
-                <li className="col-span-2 mt-4"><a href="/" className="rounded-2xl bg-[#f8f8f8] text-gray-900 px-4 py-2">Join UniMatics</a></li>
+                <li className="row-span-1"><a href="#" className=""><Image src="/images/tiktok.svg" alt="linkedin" width={100} height={100} className="invert w-6 h-auto"/></a></li>
+                <li className="row-span-1"><a href="#" className=""><Image src="/images/instagram.svg" alt="linkedin" width={100} height={100} className="invert w-6 h-auto"/></a></li>
+                <li className="row-span-1"><a href="#" className=""><Image src="/images/github.svg" alt="linkedin" width={100} height={100} className="invert w-6 h-auto"/></a></li>
+                <li className="row-span-1"><a href="#" className=""><Image src="/images/linkedin.svg" alt="linkedin" width={100} height={100} className="invert w-6 h-auto"/></a></li>
+                <li className="col-span-2 mt-4"><a href="#" className="rounded-2xl bg-[#f8f8f8] text-gray-900 px-4 py-2">Join UniMatics</a></li>
               </ul>
             </motion.aside>
           </>
@@ -118,7 +119,7 @@ export default function Home() {
           <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.3 }} className="flex flex-col justify-center items-start gap-8 w-fit xl:w-full">
             <motion.h1 variants={item} className="text-5xl/tight xl:text-7xl/tight text-[#f8f8f8] text-shadow-lg shadow-gray-800 font-bold">Learn. Grow.<br/> Succeed. Repeat.</motion.h1>
             <motion.p variants={item} className="text-lg/normal xl:text-xl/normal text-[#f8f8f8] text-shadow-lg shadow-gray-800 w-auto sm:w-130 xl:w-full">Pengalaman nyata layaknya bekerja di industri bersama para Senior di <span className="font-bold">UniMatics</span>. Rasakan workflow yang nyata. Pengalaman adalah guru yang terbaik.</motion.p>
-            <motion.a variants={item} href="/" className="flex justify-center items-center gap-4 bg-[#30499D] p-4 rounded-xl shadow-md shadow-gray-800">
+            <motion.a variants={item} href="#" className="flex justify-center items-center gap-4 bg-[#30499D] p-4 rounded-xl shadow-md shadow-gray-800">
               <p className="font-bold text-lg text-[#f8f8f8]">Join UniMatics Sekarang</p>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -167,7 +168,7 @@ export default function Home() {
                 coding
               </span>
             </motion.h2>
-            <motion.a variants={item} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.3 }} href="/" className="flex justify-center items-center gap-4 bg-[#30499D] p-4 rounded-xl shadow-md shadow-gray-800">
+            <motion.a variants={item} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.3 }} href="#" className="flex justify-center items-center gap-4 bg-[#30499D] p-4 rounded-xl shadow-md shadow-gray-800">
               <p className="font-bold text-lg text-[#f8f8f8]">Check Learning Path</p>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
@@ -192,7 +193,7 @@ export default function Home() {
               itu apa? Dan disana ngapain aja?
             </motion.h2>
             <motion.p variants={item} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.3 }} className="pb-12 text-start sm:text-justify text-lg">UniMatics merupakan komunitas non-profit yang berfokus pada pengembangan skill individu, agar individu dapat mempersiapkan diri lebih dini sebelum memasuki dunia kerja. Di UniMatics, kamu akan mendapatkan banyak pelatihan baik <span className="italic mr-1">hard-skill</span> maupun <span className="italic mr-1">soft-skill.</span> Lanjut scroll!</motion.p>
-            <motion.a href="/" variants={item} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.3 }} className="flex justify-center items-center gap-4 bg-[#30499D] p-4 rounded-xl shadow-md shadow-gray-800">
+            <motion.a href="#" variants={item} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.3 }} className="flex justify-center items-center gap-4 bg-[#30499D] p-4 rounded-xl shadow-md shadow-gray-800">
               <p className="font-bold text-lg text-[#f8f8f8]">More About Unimatics</p>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
