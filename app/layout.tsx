@@ -10,6 +10,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Unimatics",
   description: "Universe Informatics Community's Website.",
+  verification: {
+    google: '88dA3JrWqHvGQ2XqAfG6wy6OJG5khUf-cg-vHn6ucgM'
+  }
 };
 
 export default function RootLayout({
