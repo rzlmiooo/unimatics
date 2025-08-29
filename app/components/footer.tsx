@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <footer className="bg-linear-to-b from-[#16166B] to-gray-900">
             <div className="mx-auto w-full max-w-screen-xl px-12 sm:px-22 py-8 sm:py-6 lg:py-8">
-                <div className="flex flex-col md:flex-row md:justify-between gap-8">
+                <div className="flex flex-col md:flex-row md:justify-between gap-8 text-[#f8f8f8]">
                     {/* Logo and Title */}
                     <div className="w-full md:w-1/2 mb-2">
                     <Link href="#" className="flex items-center gap-4">
@@ -80,12 +80,12 @@ export default function Footer() {
                 <hr className="my-6 border-gray-200 dark:border-gray-700" />
 
                 {/* Bottom Bar */}
-                <div className="flex flex-col sm:flex-row justify-between items-center text-center text-sm text-gray-500 dark:text-gray-400 gap-4">
+                <div className="flex flex-col sm:flex-row justify-between items-center text-center text-sm text-[#f8f8f8]/80 gap-4">
                     <span>
                         © 2025 <a href="#" className="hover:underline">UniMatics™</a>. All Rights Reserved.
                     </span>
                     <span>
-                        Website by <a href="https://lawu-digital.vercel.app" target="_blank" rel="noopener noreferrer" className="font-bold">UniMatics Web Division</a>
+                        Website by <a href="https://unimatics.vercel.app" target="_blank" rel="noopener noreferrer" className="font-bold">UniMatics Web Division</a>
                     </span>
                 </div>
             </div>
