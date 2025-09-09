@@ -6,7 +6,7 @@ export default function Footer() {
         <footer className="bg-linear-to-b from-[#16166B] to-gray-900">
             <div className="mx-auto w-full max-w-screen-xl px-12 sm:px-22 py-8 sm:py-6 lg:py-8">
                 <div className="flex flex-col md:flex-row md:justify-between gap-8 text-[#f8f8f8]">
-                    {/* Logo and Title */}
+                    {/* link logo, kemudian deskripsi */}
                     <div className="w-full md:w-1/2 mb-2">
                     <Link href="#" className="flex items-center gap-4">
                         <Image 
@@ -21,8 +21,7 @@ export default function Footer() {
                     </Link>
                         <p className="pt-8 text-start">UniMatics merupakan komunitas non-profit yang berfokus pada pengembangan skill individu, agar individu dapat mempersiapkan diri lebih dini sebelum memasuki dunia kerja. Di UniMatics, kamu akan mendapatkan banyak pelatihan baik <span className="italic mr-1">hard-skill</span> maupun <span className="italic mr-1">soft-skill.</span></p>
                     </div>
-
-                    {/* Footer Links */}
+                    {/* link */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                         <div>
                             <h2 className="mb-4 text-base font-semibold text-[#f8f8f8] uppercase">
@@ -35,12 +34,12 @@ export default function Footer() {
                                     </Link>
                                 </li>
                                 <li className="mb-2">
-                                    <Link href="/artikel" className="hover:underline">
+                                    <Link href="/about/" className="hover:underline">
                                         About UniMatics
                                     </Link>
                                 </li>
                                 <li className="mb-2">
-                                    <Link href="/profil/" className="hover:underline">
+                                    <Link href="/learning-path/" className="hover:underline">
                                         Learning Path
                                     </Link>
                                 </li>
@@ -51,10 +50,10 @@ export default function Footer() {
                                 Ikuti kami
                             </h2>
                             <ul className="text-[#f8f8f8] text-sm">
-                                <li className="mb-2"><a href="https://www.instagram.com/polsekbendo31?igsh=MWc2N3V4NHB5amZ2OA==" className="hover:underline">Instagram</a></li>
-                                <li className="mb-2"><a href="https://wa.me/6281234619123" className="hover:underline">Tiktok</a></li>
-                                <li className="mb-2"><a href="https://wa.me/6281234619123" className="hover:underline">LinkedIn</a></li>
-                                <li className="mb-2"><a href="https://wa.me/6281234619123" className="hover:underline">Github</a></li>
+                                <li className="mb-2"><a href="https://www.instagram.com/unimaticscommunity/" target="_blank" className="hover:underline">Instagram</a></li>
+                                <li className="mb-2"><a href="https://www.tiktok.com/@universeinformatics/" target="_blank" className="hover:underline">Tiktok</a></li>
+                                <li className="mb-2"><a href="https://www.linkedin.com/company/unimatics-unipmaverse-informatics/" target="_blank" className="hover:underline">LinkedIn</a></li>
+                                <li className="mb-2"><a href="https://github.com/rzlmiooo/unimatics" target="_blank" className="hover:underline">Github</a></li>
                             </ul>
                         </div>
                         <div>

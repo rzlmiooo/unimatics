@@ -71,7 +71,7 @@ export default function Home() {
           </motion.div>
           <motion.div variants={container} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.3 }} className="flex flex-col items-start gap-12 w-full">
             <motion.h2 variants={item} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.3 }} className="text-3xl/tight sm:text-5xl/tight xl:text-7xl/tight text-gray-900 text-start font-bold">
-              Eh~ jangan 
+              Eh~ jangan
               <span className="relative italic pl-4 z-10">insecure
                 <Image
                   src="/images/yellow-element.png"
@@ -80,7 +80,7 @@ export default function Home() {
                   height={50}
                   className="absolute bottom-0 right-0 -z-1 w-full"
                 />
-              </span> 
+              </span><br/>
               dulu, karena<br/>
               IT nggak selalu<br/>
               <span className="pr-2">tentang</span>
@@ -88,7 +88,7 @@ export default function Home() {
                 coding
               </span>
             </motion.h2>
-            <motion.a variants={item} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.3 }} href="#" className="flex justify-center items-center gap-4 bg-[#30499D] p-4 rounded-xl shadow-md shadow-gray-800 text-[#f8f8f8]">
+            <motion.a variants={item} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.3 }} href="/learning-path" className="flex justify-center items-center gap-4 bg-[#30499D] p-4 rounded-xl shadow-md shadow-gray-500 text-[#f8f8f8]">
               <p className="font-bold text-lg">Check Learning Path</p>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
