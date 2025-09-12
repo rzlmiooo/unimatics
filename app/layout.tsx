@@ -8,13 +8,13 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "UniMatics | Komunitas Non-profit untuk Upgrade Skill Individu di Bidang IT",
+  title: "UniMatics | Komunitas IT untuk Upgrade Skill Kamu",
   description: "UniMatics adalah komunitas non-profit yang bantu kamu kembangkan skill IT baik coding atau non-coding seperti AI, frontend, backend, 3D animation hingga content creation dan masih banyak lagi. Gabung UniMatics sekarang!",
   verification: {
     google: '88dA3JrWqHvGQ2XqAfG6wy6OJG5khUf-cg-vHn6ucgM'
   },
   openGraph: {
-    title: "UniMatics | Komunitas Non-profit untuk Upgrade Skill Individu di Bidang IT",
+    title: "UniMatics | Komunitas IT untuk Upgrade Skill Kamu",
     description: "UniMatics adalah komunitas non-profit yang bantu kamu kembangkan skill IT baik coding atau non-coding seperti AI, frontend, backend, 3D animation hingga content creation dan masih banyak lagi. Gabung UniMatics sekarang!",
     url: "https://unimatics.vercel.app",
     siteName: "UniMatics",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "UniMatics | Komunitas Non-profit untuk Upgrade Skill Individu di Bidang IT",
+    title: "UniMatics | Komunitas IT untuk Upgrade Skill Kamu",
     description: "UniMatics adalah komunitas non-profit yang bantu kamu kembangkan skill IT baik coding atau non-coding seperti AI, frontend, backend, 3D animation hingga content creation dan masih banyak lagi. Gabung UniMatics sekarang!",
     images: ["https://unimatics.vercel.app/og-image.jpg"],
     creator: "@unimatics",
