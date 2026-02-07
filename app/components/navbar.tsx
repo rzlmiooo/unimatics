@@ -12,7 +12,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
     return (
       <>
-        <nav className="fixed w-full flex justify-between items-center px-8 xl:px-16 py-4 bg-[#16166B]/80 backdrop-blur-md shadow-md shadow-gray-900 z-20">
+        <nav className="fixed w-full flex justify-between items-center px-8 xl:px-16 py-4 bg-[#16166B]/80 backdrop-blur-md  z-20">
         <ul className="flex items-center gap-8 font-medium">
           {/* iki link logo */}
           <Link href="/" className="flex items-center gap-4">
@@ -55,7 +55,8 @@ export default function Navbar() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setIsOpen(false)} 
-              className="flex fixed z-30 top-0 h-screen w-full overflow-hidden backdrop-blur-sm"/>
+              className="flex fixed z-30 top-0 h-screen w-full overflow-hidden backdrop-blur-sm"
+            />
             <motion.aside 
               key="sidebar"
               initial={{ x: "100%" }}
@@ -71,7 +72,7 @@ export default function Navbar() {
               >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
-              </svg>
+                </svg>
               </button>
               {/* konten sidebar */}
               <ul className="flex flex-col items-start gap-6 font-medium text-[#f8f8f8] border-b pb-6 pt-12">
